@@ -3,7 +3,7 @@
  */
 
 export function gameGenerator(favoriteGame) {
-    if (favoriteGame === "The Legend of Zelda") {
+    if (favoriteGame.includes("Zelda")) {
         const text = "It's dangerous to go alone! Take this."
         const swordTip = "   ^ "
         let swordBlade = "  | |"
@@ -22,7 +22,7 @@ export function gameGenerator(favoriteGame) {
         const zelda = text + "\n" + swordTip + "\n" + swordBlade + "\n" + swordGuard + "\n" + swordHandle + "\n" + swordPommel + "\n"
 
         return zelda
-    } else if (favoriteGame === "Super Mario") {
+    } else if (favoriteGame.includes("Mario")) {
         const text = "It's-a me, Mario!"
         const hat = "─▄████▄▄░"
         const upperFace = "▄▀█▀▐└─┐░░"
