@@ -2,7 +2,7 @@
   "name": "1dv610-l1",
   "version": "1.0.0",
   "description": "Börja programmera igen :D",
-  "main": "app.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
     "start": "node app.js",
