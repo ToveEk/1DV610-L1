@@ -1,3 +1,7 @@
+/**
+ * The main application file for the game ASCII art generator.
+ */
+
 import readline from "readline-sync"
 
 import { gameGenerator } from "./games.js"

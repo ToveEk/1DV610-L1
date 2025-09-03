@@ -1,3 +1,7 @@
+/**
+ * The gameGenerator function generates a game-themed ASCII art based on the user's favorite game.
+ */
+
 export function gameGenerator(favoriteGame) {
     if (favoriteGame === "The Legend of Zelda") {
         const text = "It's dangerous to go alone! Take this."
