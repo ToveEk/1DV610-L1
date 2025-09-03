@@ -1,6 +1,6 @@
 import readline from "readline-sync"
 
-import { gameGenerator } from "./games"
+import { gameGenerator } from "./games.js"
 
 console.log("Hello friend! What's your name?")
 
