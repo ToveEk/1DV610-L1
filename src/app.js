@@ -12,3 +12,5 @@ console.log("What is your favorite video game?")
 const favoriteGame = readline.question("Enter your favorite video game: ")
 
 gameGenerator(favoriteGame)
+
+console.log(gameGenerator(favoriteGame))

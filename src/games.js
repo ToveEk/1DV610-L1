@@ -1,24 +1,34 @@
 export function gameGenerator(favoriteGame) {
     if (favoriteGame === "The Legend of Zelda") {
-        console.log("It's dangerous to go alone! Take this.")
-        console.log("   ^ ")
-        console.log("  | |")
-        console.log("  | |")
-        console.log("  | |")
-        console.log("  | |")
-        console.log("  | |")
-        console.log("  | |")
-        console.log("<--8-->")
-        console.log("   0")
-        console.log("   0")
-        console.log("   @")
+        const text = "It's dangerous to go alone! Take this."
+        const swordTip = "   ^ "
+        let swordBlade = "  | |"
+        const swordGuard = "<--8-->"
+        let swordHandle = "   0"
+        const swordPommel = "   @"
+
+        for (let i = 0; i < 4; i++) {
+            swordBlade += "\n" + "  | |"
+        }
+
+        for (let i = 0; i < 1; i++) {
+            swordHandle += "\n" + "   0"
+        }
+
+        const zelda = text + "\n" + swordTip + "\n" + swordBlade + "\n" + swordGuard + "\n" + swordHandle + "\n" + swordPommel + "\n"
+
+        return zelda
     } else if (favoriteGame === "Super Mario") {
-        console.log("It's-a me, Mario!")
-        console.log("─▄████▄▄░")
-        console.log("▄▀█▀▐└─┐░░")
-        console.log("█▄▐▌▄█▄┘██")
-        console.log("└▄▄▄▄▄┘███")
-        console.log("██▒█▒███▀")
+        const text = "It's-a me, Mario!"
+        const hat = "─▄████▄▄░"
+        const upperFace = "▄▀█▀▐└─┐░░"
+        const lowerFace = "█▄▐▌▄█▄┘██"
+        const neck = "└▄▄▄▄▄┘███"
+        const chest = "██▒█▒███▀"
+
+        const mario = text + "\n" + hat + "\n" + upperFace + "\n" + lowerFace + "\n" + neck + "\n" + chest + "\n"
+        
+        return mario
     }
 }
 
