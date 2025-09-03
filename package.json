@@ -16,11 +16,14 @@
   },
   "author": "Tove Ek",
   "license": "ISC",
-  "devDependencies": {
-    "@lnu/eslint-config": "^1.1.10"
-  },
   "bugs": {
     "url": "https://github.com/ToveEk/1DV610-L1/issues"
   },
-  "homepage": "https://github.com/ToveEk/1DV610-L1#readme"
+  "homepage": "https://github.com/ToveEk/1DV610-L1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.10"
+  }
 }
